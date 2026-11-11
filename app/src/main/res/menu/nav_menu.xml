@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeFragment"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="HOME" />
+        <item
+            android:id="@+id/profileFragment"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="PROFILE" />
+        <item
+            android:id="@+id/settingFragment"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="SETTING" />
+    </group>
+
+    <item android:title="CONFIDENTIAL">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/login"
+                    android:icon="@android:drawable/ic_secure"
+                    android:title="Login" />
+            </group>
+        </menu>
+    </item>
+</menu>
